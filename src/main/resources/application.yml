@@ -1,0 +1,7 @@
+spring:
+  profile:
+    active: dev
+  application:
+    name: stream-service
+server:
+  port: 8085

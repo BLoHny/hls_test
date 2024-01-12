@@ -1,6 +1,8 @@
-FROM maven:3.8.3-openjdk-17 AS MAVEN_BUILD
+FROM maven:3.8.3-openjdk-17 AS GRADLE_BUILD
 
 MAINTAINER rubycpp1225@outlook.kr
+
+COPY build.gradle /build/
 
 COPY src /build/src/
 
